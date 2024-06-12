@@ -1,47 +1,24 @@
-# Getting Started with Create React App
+## 작업자 : 이규남
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 제작 기간: 20일 (2024.05.27 ~ 2024.06.12)
 
-## Available Scripts
+## ⭐️ 프로젝트 설명
 
-In the project directory, you can run:
+저의 React-TypeScript를 활용한 개인 포트폴리오 홈페이지 입니다.<br/><br/>
 
-### `npm start`
+- 깔끔한 UI로 디자인 하였습니다.
+- 메인페이지는 5개의 섹션으로 구성되어 있습니다. (intro, about, skill, projects, clone-coding)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 링크
+- [와이어프레임 및 디자인](https://www.figma.com/file/v2H4hEpzNfnYm5YprPp9SX/personalPortfolio?type=design&node-id=0%3A1&mode=design&t=OA0jYetTy0UVWNB9-1)
+- [사이트 바로가기](https://rbska9810.github.io/portfolio/) <br>
+## 💻 개발 환경
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
+- 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+- 사용된 기술 :
+   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"><img src="https://img.shields.io/badge/reactt-%23007ACC.svg?style=for-the-badge&logo=react&logoColor=white">
 
-### `npm test`
+## 🛠️ 페이지 특성
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# react-ts-portfolio
+React-router를 사용하여 projects와 clone-coding 페이지로 이동할 수 있게 작업하였습니다.
