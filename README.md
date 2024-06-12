@@ -10,8 +10,8 @@
 - 메인페이지는 5개의 섹션으로 구성되어 있습니다. (intro, about, skill, projects, clone-coding)
 
 ## 🚀 링크
-- [와이어프레임 및 디자인](https://www.figma.com/file/v2H4hEpzNfnYm5YprPp9SX/personalPortfolio?type=design&node-id=0%3A1&mode=design&t=OA0jYetTy0UVWNB9-1)
-- [사이트 바로가기](https://rbska9810.github.io/portfolio/) <br>
+- [와이어프레임 및 디자인](https://www.figma.com/design/v2H4hEpzNfnYm5YprPp9SX/personalPortfolio?node-id=257-6&t=nsnb8NzBludmHJN8-1)
+- [사이트 바로가기](https://main--lee-gyu-nam-portfolio.netlify.app/) <br>
 ## 💻 개발 환경
 
 - 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
