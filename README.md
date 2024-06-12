@@ -17,7 +17,7 @@
 - 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
 - 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
 - 사용된 기술 :
-   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"><img src="https://img.shields.io/badge/reactt-%23007ACC.svg?style=for-the-badge&logo=react&logoColor=white">
+   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/reactt-%00D8FF.svg?style=for-the-badge&logo=react&logoColor=white">
 
 ## 🛠️ 페이지 특성
 
