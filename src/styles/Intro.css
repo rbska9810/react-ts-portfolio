@@ -1,0 +1,94 @@
+.Intro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #1f1f1f;
+}
+
+.introCenter {
+  position: relative;
+  z-index: 3;
+}
+
+.introCenter h1 {
+  color: #f2f2f2;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.introCenter p {
+  color: #e44d26;
+  font-size: 2.25rem;
+  text-align: end;
+  font-weight: 900;
+}
+
+.introBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.introBg svg {
+  position: absolute;
+}
+
+.circle01 {
+  width: 276px;
+  height: 276px;
+  top: 15%;
+  left: 13%;
+}
+.circle02 {
+  width: 317px;
+  height: 317px;
+  bottom: 5%;
+  left: 5%;
+}
+.circle03 {
+  width: 177px;
+  height: 177px;
+  top: 20%;
+  left: 45%;
+}
+.circle04 {
+  width: 122px;
+  height: 122px;
+  bottom: 25%;
+  right: 15%;
+}
+.square01 {
+  width: 121px;
+  height: 121px;
+  left: 30%;
+  top: 45%;
+}
+.square02 {
+  width: 102px;
+  height: 102px;
+  left: 50%;
+  bottom: 25%;
+}
+.square03 {
+  width: 94px;
+  height: 94px;
+  right: 5%;
+  top: 10%;
+}
+.triangle01 {
+  width: 67px;
+  height: 76px;
+  top: 8%;
+  right: 35%;
+}
+.triangle02 {
+  width: 71px;
+  height: 74px;
+  right: 15%;
+  top: 40%;
+}

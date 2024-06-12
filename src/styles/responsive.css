@@ -1,0 +1,388 @@
+@media screen and (max-width: 1024px) {
+
+  /* intro */
+  .introBg {
+    transform: scale(0.7);
+  }
+
+  .circle01 {
+    left: -15%;
+    top: -15%;
+  }
+
+  .circle02 {
+    left: -15%;
+    bottom: -15%;
+  }
+
+  .circle03 {
+    top: 10%;
+    left: 35%;
+  }
+
+  .circle04 {
+    bottom: 15%;
+    right: -10%;
+  }
+
+  .square01 {
+    top: 55%;
+    left: 20%;
+  }
+
+  .square02 {
+    bottom: 0;
+    left: 65%;
+  }
+
+  .square03 {
+    right: -15%;
+    top: -5%;
+  }
+
+  .triangle01 {
+    top: 0;
+    right: 25%;
+  }
+
+  .triangle02 {
+    top: 30%;
+    right: 0;
+  }
+
+  /* about */
+  .About {
+    height: auto;
+  }
+
+  .AboutInner {
+    flex-direction: column;
+    gap: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+  }
+
+  .aboutLeft {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .profile {
+    right: 0;
+    opacity: 1;
+    transform: translate(0, 0)rotate(0);
+  }
+
+  .aboutContent {
+    width: 100%;
+    font-size: 1.3rem;
+    transform: translate(0, 0)rotate(0);
+    opacity: 1;
+  }
+
+  .aboutRight {
+    width: 100%;
+    height: auto;
+    gap: 50px;
+  }
+
+  .aboutRight h3::after {
+    width: 100%;
+  }
+
+  .aboutRight p {
+    transform: translate(0, 0)rotate(0);
+    opacity: 1;
+  }
+
+  /* skill */
+  .Skill {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .skillContent {
+    padding: 0;
+  }
+
+  .SkillDetail {
+    height: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .skillGauge {
+    width: 100%;
+  }
+
+  /* projects */
+  .Project {
+    grid-template-columns: repeat(1, 100%);
+    margin-bottom: 80px;
+  }
+
+  .Project .ProjectImg {
+    width: 100%;
+    order: 1;
+  }
+
+  .Project .ProjectImg img {
+    width: 100%;
+  }
+
+  .projectTitle {
+    margin: 0 0 15px;
+  }
+
+  .Project .stack {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .soloOrTeam {
+    margin-bottom: 15px;
+  }
+
+  .ProjectLink {
+    grid-column: auto;
+  }
+
+  /* cloneCoding */
+  .cloneWrap {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  /* intro */
+  .introBg {
+    transform: scale(0.5);
+  }
+
+  .circle01 {
+    left: -45%;
+    top: -35%;
+  }
+
+  .circle02 {
+    left: -35%;
+    bottom: -35%;
+  }
+
+  .circle03 {
+    top: -10%;
+    left: 30%;
+  }
+
+  .circle04 {
+    bottom: -20%;
+    right: -30%;
+  }
+
+  .square01 {
+    top: 55%;
+    left: 10%;
+  }
+
+  .square03 {
+    right: -35%;
+    top: -25%;
+  }
+
+  .triangle01 {
+    top: -10%;
+    right: 5%;
+  }
+
+  .triangle02 {
+    top: 20%;
+    right: -20%;
+  }
+
+  /* 공통구간 */
+  .aboutTitle,
+  .skillTitle,
+  .projectsTitle,
+  .cloneTitle {
+    font-size: 2.5rem;
+  }
+
+  .aboutTitle h2,
+  .skillTitle h2,
+  .projectsTitle h2,
+  .cloneTitle h2 {
+    padding-top: 45px;
+    padding-left: 90px;
+  }
+
+  .aboutTitle span,
+  .skillTitle span,
+  .projectsTitle span,
+  .cloneTitle span {
+    font-size: 7rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  html {
+    font-size: 13px;
+  }
+
+  /* .Header */
+  .Header {
+    width: 90%;
+    height: 40px;
+  }
+
+  .Header a {
+    font-size: 1rem;
+  }
+
+  /* intro */
+  .introCenter h1 {
+    font-size: 3.5rem;
+  }
+  .introCenter p {
+    font-size: 2rem;
+  }
+
+  /* about */
+  .profile {
+    width: 80%;
+    top: 0;
+  }
+
+  .aboutContent {
+    font-size: 1.2rem;
+  }
+
+  .aboutRight p,
+  .aboutRight span {
+    font-size: 1.15rem;
+  }
+
+  /* 공통구간 */
+  .aboutTitle,
+  .skillTitle,
+  .projectsTitle,
+  .cloneTitle {
+    font-size: 2rem;
+  }
+
+  .aboutTitle h2,
+  .skillTitle h2,
+  .projectsTitle h2,
+  .cloneTitle h2 {
+    padding-top: 40px;
+    padding-left: 70px;
+  }
+
+  .aboutTitle span,
+  .skillTitle span,
+  .projectsTitle span,
+  .cloneTitle span {
+    font-size: 6rem;
+  }
+
+  /* cloneCoding */
+  .cloneWrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .inner {
+    width: 90%;
+  }
+
+  /* .Header */
+  .Header {
+    gap: 30px;
+  }
+
+  .Header a {
+    font-size: 0.8rem;
+  }
+
+  /* intro */
+  .introCenter h1 {
+    font-size: 3rem;
+  }
+  .introCenter p {
+    font-size: 1.7rem;
+  }
+
+  /* about */
+  .profile {
+    width: 70%;
+  }
+
+  .aboutContent {
+    font-size: 1.05rem;
+  }
+  .aboutRight h3 {
+    font-size: 1.75rem;
+  }
+
+  .aboutRight p,
+  .aboutRight span {
+    font-size: 1.05rem;
+  }
+  .aboutRight span {
+    padding-left: 10px;
+  }
+
+  /* skill */
+  .Skill {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+  .skillName {
+    font-size: 1.2rem;
+  }
+  .SkillDetail {
+    height: 55px;
+  }
+  /* Projects */
+  .projectTitle {
+    font-size: 1.7rem;
+  }
+  .projectTitle::after {
+    width: 15px;
+    height: 15px;
+  }
+  .Project .stack span {
+    width: 70px;
+    height: 25px;
+    font-size: 1.1rem;
+  }
+
+  /* 공통구간 */
+  .aboutTitle,
+  .skillTitle,
+  .projectsTitle,
+  .cloneTitle {
+    font-size: 1.8rem;
+  }
+
+  .aboutTitle h2,
+  .skillTitle h2,
+  .projectsTitle h2,
+  .cloneTitle h2 {
+    padding-top: 30px;
+    padding-left: 60px;
+  }
+
+  .aboutTitle span,
+  .skillTitle span,
+  .projectsTitle span,
+  .cloneTitle span {
+    font-size: 5rem;
+  }
+}

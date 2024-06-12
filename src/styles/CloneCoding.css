@@ -1,0 +1,129 @@
+.CloneCoding {
+  height: auto;
+  background-color: #f2f2f2;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.cloneTitle {
+  margin-bottom: 70px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 20px;
+}
+
+.cloneTitle::after {
+  content: '';
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  background-color: #E44D26;
+  bottom: 0;
+  left: 0;
+}
+
+.cloneTitle span {
+  color: #E3E3E3;
+  font-weight: 900;
+  font-size: 8rem;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  font-family: "Gothic A1", sans-serif;
+}
+
+.cloneTitle h2 {
+  font-weight: 900;
+  padding-top: 58px;
+  padding-left: 130px;
+}
+
+.cloneWrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px 3%;
+}
+
+.Clone {
+  height: auto;
+  border: 3px solid #E44D26;
+  background-color: #1F1F1F;
+  color: #f2f2f2;
+  padding: 30px 15px;
+  border-radius: 20px;
+  transform: translateY(50px);
+  opacity: 0;
+  transition-property: transform, opacity;
+  transition-duration: 0.5s;
+}
+.Clone.on {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.Clone .title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.cloneImg {
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  font-size: 0;
+}
+
+.cloneImg img {
+  width: 100%;
+  transition: transform 3s;
+}
+
+.cloneImg img:hover {
+  transform: scale(1.2);
+}
+
+.cloneStack {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.cloneStack span {
+  font-weight: 600;
+}
+
+.cloneLink {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.cloneLink .gitHub,
+.cloneDemo {
+  display: inline-block;
+}
+
+.cloneLink .gitHub svg,
+.cloneDemo svg {
+  width: 35px;
+  height: 35px;
+}
+.cloneLink .gitHub svg,
+.cloneDemo path:last-child {
+  fill: #f2f2f2;
+}
+.cloneLink .gitHub:hover svg,
+.cloneDemo:hover path:last-child {
+  fill: #E44D26;
+}
+
+.cloneDemo path:first-child {
+  stroke: #f2f2f2;
+}
+.cloneDemo:hover path:first-child {
+  stroke: #E44D26;
+}

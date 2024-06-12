@@ -1,0 +1,94 @@
+.Skill {
+  background-color: #F2F2F2;
+  height: 100vh;
+  padding-top: 100px;
+  color: #1F1F1F;
+  position: relative;
+}
+
+.skillTitle {
+  margin-bottom: 70px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 10px;
+}
+
+.skillTitle::after {
+  content: '';
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  background-color: #E44D26;
+  bottom: 0;
+  left: 0;
+}
+
+.skillTitle span {
+  color: #E3E3E3;
+  font-weight: 900;
+  font-size: 8rem;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  font-family: "Gothic A1", sans-serif;
+}
+
+.skillTitle h2 {
+  font-weight: 900;
+  padding-top: 58px;
+  padding-left: 130px;
+}
+
+.skillContent {
+  padding: 0 175px;
+}
+
+.SkillDetail {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skillName {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.skillGauge {
+  width: 80%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 50px;
+  position: relative;
+  padding: 2px 3px;
+  box-shadow: 2px 4px 10px #6d6d6d4f;
+
+}
+
+.skillGauge .bar {
+  height: 100%;
+  border-radius: 50px;
+  background-color: #e44d26;
+  opacity: 0.43;
+}
+
+.skillGauge span {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #e44c26;
+  font-weight: 900;
+}
+
+.wavingBg {
+  width: 100%;
+  position: absolute;
+  top: -200px;
+  opacity: 1;
+}

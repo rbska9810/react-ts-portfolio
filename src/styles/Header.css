@@ -1,0 +1,21 @@
+.Header {
+  width: 550px;
+  height: 70px;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #2b2b2b;
+  border-radius: 0 0 50px 50px;
+}
+.Header a {
+  color: #F2F2F2;
+  font-size: 1.25rem;
+  font-weight: 900;
+  transition: color .3s;
+}
